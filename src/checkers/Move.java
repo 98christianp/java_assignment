@@ -47,10 +47,12 @@ public class Move extends Checkers{
 
             // Decrement the number of pieces for the enemy player
             if(Checkers.playOneTurn){
-                super.playerTwoPieces--;
+            	System.out.println("removing player 2 piece");
+                super.setPlayerOnePieces(getPlayerOnePieces()-1);
             }
             else{
-                super.playerOnePieces--;
+            	System.out.println("removing player 1 piece");
+                super.setPlayerTwoPieces(getPlayerTwoPieces()-1);
             }
 
 
