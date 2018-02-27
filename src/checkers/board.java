@@ -1,6 +1,6 @@
 package checkers;
 
-public class board extends Checkers{
+public class board {
 
 	static int[][] Board;
         
@@ -54,7 +54,5 @@ public class board extends Checkers{
             {2,0,2,0,2,0,2,0},
             {0,2,0,2,0,2,0,2},
             {2,0,2,0,2,0,2,0}};
-       System.out.println("Initializing values");
-       System.out.println(super.getPlayerOnePieces());
     }
 }
